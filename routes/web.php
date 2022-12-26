@@ -13,8 +13,8 @@ use App\Http\Controllers\userController;
 |
 */
 
-Route::get('/template', function () {
-    return view('layouts.template');
+Route::get('/', function () {
+    return view('dashboard');
 });
 
 Route::get('/login',function(){

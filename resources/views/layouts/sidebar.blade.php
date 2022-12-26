@@ -1,9 +1,9 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="/" class="brand-link">
       <img src="{{ asset('dist/img/game.gif')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Pos Surat</span>
+      <span class="brand-text font-weight-light">Dashboard </span>
     </a>
 
     <!-- Sidebar -->
@@ -39,7 +39,7 @@
             <a href="#" class="nav-link ">
               <i class="nav-icon bi bi-people-fill "></i>
               <p>
-                Surat Masuk
+                Product
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -63,7 +63,7 @@
             <a href="#" class="nav-link ">
               <i class="nav-icon bi bi-book"></i>
               <p>
-                Surat Keluar
+                Kategori
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -86,7 +86,7 @@
             <a href="#" class="nav-link ">
               <i class="nav-icon bi bi-book"></i>
               <p>
-                Disposisis
+                Transaksi
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -105,29 +105,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item ">
-            <a href="#" class="nav-link ">
-              <i class="nav-icon bi bi-book"></i>
-              <p>
-                Petugas
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{  url('menu')   }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data List</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{  url('menu/form')   }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Add New</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+          
          
             <li class="nav-item">
                 <a href="#" class="nav-link text-danger">
